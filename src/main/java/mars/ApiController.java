@@ -11,8 +11,8 @@ public class ApiController {
 	@RequestMapping(value="/hello", method=RequestMethod.GET)
 	public ModelAndView greeting() {
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("msg", "First SpringMVC project");
-		mv.setViewName("hello");
+		mv.addObject("msg", "First SpringMVC project"); // model
+		mv.setViewName("hello"); // view
 		return mv;
 	}
 }
