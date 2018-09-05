@@ -1,2 +1,11 @@
-mars\ApiController.class
+mars\entity\HistoryItem.class
+mars\service\GenericService.class
 mars\ApplicationConfiguration.class
+mars\common\GeoHash.class
+mars\common\ResponseHelper.class
+mars\ApiController.class
+mars\entity\Item$ItemBuilder.class
+mars\service\TicketMasterService.class
+mars\entity\Item$1.class
+mars\service\AbstractGenericService.class
+mars\entity\Item.class

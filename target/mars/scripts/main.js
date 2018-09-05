@@ -20,7 +20,7 @@
         $('fav-btn').addEventListener('click', loadFavoriteItems);
         $('recommend-btn').addEventListener('click', loadRecommendedItems);
 
-        validateSession();
+        onSessionValid();
     }
 
     /**
@@ -44,8 +44,8 @@
     }
 
     function onSessionValid(result) {
-        userId = result.user_id;
-        userFullName = result.name;
+//        userId = result.user_id;
+//        userFullName = result.name;
         var loginForm = $('login-form');
         var itemNav = $('item-nav');
         var itemList = $('item-list');
