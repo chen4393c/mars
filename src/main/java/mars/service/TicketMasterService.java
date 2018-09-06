@@ -72,9 +72,9 @@ public class TicketMasterService extends AbstractGenericService<Item> {
 		JSONArray events = embedded.getJSONArray("events");
 		List<Item> items = getItemList(events);
 
-		for (Item item : items) {
-			// we will update database using hibernate later
-		}
+//		for (Item item : items) {
+//			// we will update database using hibernate later
+//		}
 		return items;
 	}
 
